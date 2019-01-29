@@ -7,16 +7,20 @@ const timeBreakLong = 30 * 60; // total number of minutes of long break
 
 var boolRunning = false; // bool for checking if clock is running
 
-document.getElementById("state").innerHTML = "Get Productive";
+document.getElementById("state").innerHTML = "Time to work!";
+
+document.getElementById("image").src = "images/main/timer_start.png"
 
 timeCurrent = timeWork;
 timeCurrent = displayTime(timeCurrent);
 
 var textClock = document.getElementById("clock");
-textClock.style.display = "none";
+//textClock.style.display = "none";
 
 function startTimer()
 {
+    // Sets timer image to running hourglass   
+    document.getElementById("image").src = "images/main/timer_current.png"
     // Hides button on click
     var button = document.getElementById("buttonStart");
     textClock.style.display = "block";
@@ -33,10 +37,17 @@ function startTimer()
             
             if (timeCurrent < 0) {
                 window.clearInterval(x);
-                button.style.display = "inline-block";
+                button.style.display = "block";
                 boolWorking = false;
                 countWork++;
-                document.getElementById("state").innerHTML = "Break Time";
+                if (countWork < 4) {
+                    document.getElementById("state").innerHTML = "Take a short break!";
+                }
+                else {
+                    document.getElementById("state").innerHTML = "Get some coffee!";
+                }
+                document.getElementById("image").src = "images/main/timer_stop.png"
+                window.navigator.vibrate(500);
             }
         }, 1000);
     }
@@ -48,7 +59,7 @@ function startTimer()
         }
         else {
             timeCurrent = timeBreakLong;
-            document.getElementById("state").innerHTML = "Taking a long break...";
+            document.getElementById("state").innerHTML = "Getting some coffee...";
         }
         
         
@@ -58,12 +69,14 @@ function startTimer()
 
             if (timeCurrent < 0) {
                 window.clearInterval(x);
-                button.style.display = "inline-block";
+                button.style.display = "block";
                 boolWorking = true;
                 if (countWork >= 4) {
                     countWork = 0;
                 }
-                document.getElementById("state").innerHTML = "Get Productive";
+                document.getElementById("state").innerHTML = "Time to work!";
+                document.getElementById("image").src = "images/main/timer_stop.png"
+                window.navigator.vibrate(500);
             }
         }, 1000);
     }

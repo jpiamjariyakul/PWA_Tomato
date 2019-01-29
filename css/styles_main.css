@@ -1,5 +1,10 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans);
 
+html
+{
+    background-color: lightblue;
+}
+
 body
 {
     font-family: "Open Sans", sans-serif;
@@ -11,21 +16,38 @@ div
     margin: auto;
 }
 
+p, button, img
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 p
 {
     font-size: 32px;
+    /*-webkit-text-stroke: 1px darkblue;*/
+    color: midnightblue;
 }
 
 button
 {
-    background-color: #4CAF50; /* Green */
+    background-color: steelblue;
     font-family: "Open Sans", sans-serif;
     border: none;
     color: white;
-    padding: 16px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+    display: block;
+    font-size: 24px;
+    padding: 16px;
+    width: 50%;
 }
 
+img
+{
+    border-radius: 50%;
+    height: 256px;
+    width: 256px;
+    display: block;
+    border: 2px darkblue;
+}

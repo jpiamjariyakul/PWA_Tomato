@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.44884708"
-     inkscape:cx="90.372696"
-     inkscape:cy="339.54509"
+     inkscape:cx="-167.17986"
+     inkscape:cy="308.7478"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -71,12 +71,15 @@
      id="layer1"
      transform="translate(0,-164.70832)">
     <g
-       id="g3901">
+       id="g4041"
+       inkscape:export-filename="C:\Users\jpiam\Documents\GitHub\PWA_Tomato\images\main\timer_current.png"
+       inkscape:export-xdpi="196.608"
+       inkscape:export-ydpi="196.608">
       <path
          id="path3711"
-         transform="matrix(0.26458334,0,0,0.26458334,0,164.70832)"
-         d="M 250 0 A 250 249.99997 0 0 0 0 250 A 250 249.99997 0 0 0 250 500 A 250 249.99997 0 0 0 500 250 A 250 249.99997 0 0 0 250 0 z M 250 20 A 230 229.99998 0 0 1 480 250 A 230 229.99998 0 0 1 250 480 A 230 229.99998 0 0 1 20 250 A 230 229.99998 0 0 1 250 20 z "
-         style="fill:#3771c8;stroke-width:0.48076916" />
+         d="M 66.145835,164.70832 A 66.145835,66.145827 0 0 0 0,230.85415 66.145835,66.145827 0 0 0 66.145835,296.99999 66.145835,66.145827 0 0 0 132.29167,230.85415 66.145835,66.145827 0 0 0 66.145835,164.70832 Z m 0,5.29167 A 60.854168,60.854163 0 0 1 127,230.85415 60.854168,60.854163 0 0 1 66.145835,291.70832 60.854168,60.854163 0 0 1 5.2916668,230.85415 60.854168,60.854163 0 0 1 66.145835,169.99999 Z"
+         style="fill:#3771c8;stroke-width:0.12720351"
+         inkscape:connector-curvature="0" />
       <circle
          r="60.854168"
          cy="230.85416"
@@ -85,9 +88,9 @@
          style="fill:#ffeeaa;stroke-width:0.26458335" />
       <path
          id="rect3746-0"
-         transform="matrix(0.26458334,0,0,0.26458334,0,164.70832)"
-         d="M 160 120 L 250 250 L 340 120 L 160 120 z M 250 250 L 160 380 L 340 380 L 250 250 z "
-         style="fill:#2c5aa0;fill-opacity:1;stroke-width:0.96362418" />
+         d="m 42.333334,196.45832 23.812501,34.39583 23.812501,-34.39583 z m 23.812501,34.39583 -23.812501,34.39584 h 47.625002 z"
+         style="fill:#2c5aa0;fill-opacity:1;stroke-width:0.2549589"
+         inkscape:connector-curvature="0" />
       <rect
          y="185.87498"
          x="37.041668"
@@ -104,9 +107,54 @@
          style="fill:#2c5aa0;stroke-width:0.15697624" />
       <path
          id="rect3746-0-2"
-         transform="matrix(0.26458334,0,0,0.26458334,0,164.70832)"
-         d="M 216.66602 185 L 250 235 L 283.33398 185 L 216.66602 185 z M 216.66602 315 L 180 370 L 320 370 L 283.33398 315 L 216.66602 315 z "
-         style="fill:#ffe680;fill-opacity:1;stroke-width:0.96362418" />
+         d="m 57.326219,213.65624 8.819616,13.22916 8.819616,-13.22916 z m 0,34.39583 -9.701218,14.55209 h 37.041668 l -9.701218,-14.55209 z"
+         style="fill:#ffe680;fill-opacity:1;stroke-width:0.2549589"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g3997"
+       transform="translate(-190.5,-37.041668)">
+      <g
+         inkscape:export-ydpi="196.608"
+         inkscape:export-xdpi="196.608"
+         inkscape:export-filename="C:\Users\jpiam\Documents\GitHub\PWA_Tomato\images\main\timer_start.png"
+         id="g3973">
+        <path
+           inkscape:connector-curvature="0"
+           style="fill:#3771c8;stroke-width:0.12720351"
+           d="M 66.145835,164.70832 A 66.145835,66.145827 0 0 0 0,230.85415 66.145835,66.145827 0 0 0 66.145835,296.99999 66.145835,66.145827 0 0 0 132.29167,230.85415 66.145835,66.145827 0 0 0 66.145835,164.70832 Z m 0,5.29167 A 60.854168,60.854163 0 0 1 127,230.85415 60.854168,60.854163 0 0 1 66.145835,291.70832 60.854168,60.854163 0 0 1 5.2916668,230.85415 60.854168,60.854163 0 0 1 66.145835,169.99999 Z"
+           id="path3711-7" />
+        <circle
+           style="fill:#ffeeaa;stroke-width:0.26458335"
+           id="path3729-2"
+           cx="66.145836"
+           cy="230.85416"
+           r="60.854168" />
+        <path
+           inkscape:connector-curvature="0"
+           style="fill:#2c5aa0;fill-opacity:1;stroke-width:0.2549589"
+           d="m 42.333334,196.45832 23.812501,34.39583 23.812501,-34.39583 z m 23.812501,34.39583 -23.812501,34.39584 h 47.625002 z"
+           id="rect3746-0-26" />
+        <rect
+           style="fill:#2c5aa0;stroke-width:0.15697624"
+           id="rect3748-1-08"
+           width="58.208336"
+           height="5.2916694"
+           x="37.041668"
+           y="185.87498" />
+        <rect
+           style="fill:#2c5aa0;stroke-width:0.15697624"
+           id="rect3748-1-0-8"
+           width="58.208336"
+           height="5.2916694"
+           x="37.041668"
+           y="270.54166" />
+        <path
+           style="fill:#ffe680;fill-opacity:1;stroke-width:0.20207888"
+           d="M 47.625001,199.10415 66.145835,226.8854 84.666669,199.10415 Z"
+           id="path3926"
+           inkscape:connector-curvature="0" />
+      </g>
     </g>
   </g>
 </svg>
