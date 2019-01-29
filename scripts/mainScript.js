@@ -9,7 +9,7 @@ var boolRunning = false; // bool for checking if clock is running
 
 document.getElementById("state").innerHTML = "Time to work!";
 
-document.getElementById("image").src = "images/main/timer_start.png"
+document.getElementById("image").src = "../images/main/timer_start.png"
 
 timeCurrent = timeWork;
 timeCurrent = displayTime(timeCurrent);
@@ -20,7 +20,7 @@ var textClock = document.getElementById("clock");
 function startTimer()
 {
     // Sets timer image to running hourglass   
-    document.getElementById("image").src = "images/main/timer_current.png"
+    document.getElementById("image").src = "../images/main/timer_current.png"
     // Hides button on click
     var button = document.getElementById("buttonStart");
     textClock.style.display = "block";
@@ -46,7 +46,7 @@ function startTimer()
                 else {
                     document.getElementById("state").innerHTML = "Get some coffee!";
                 }
-                document.getElementById("image").src = "images/main/timer_stop.png"
+                document.getElementById("image").src = "../images/main/timer_stop.png"
                 window.navigator.vibrate(500);
             }
         }, 1000);
@@ -75,7 +75,7 @@ function startTimer()
                     countWork = 0;
                 }
                 document.getElementById("state").innerHTML = "Time to work!";
-                document.getElementById("image").src = "images/main/timer_stop.png"
+                document.getElementById("image").src = "../images/main/timer_stop.png"
                 window.navigator.vibrate(500);
             }
         }, 1000);
