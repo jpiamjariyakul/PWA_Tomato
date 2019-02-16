@@ -1,6 +1,6 @@
 //self.importScript('//cdn.polyfill.io/v1/polyfill.min.js');
 
-var cacheName = 'PWA_tomato';
+var cacheName = 'PWA-tomato_v1';
 
 var contentToCache = [
     // Main HTML file
