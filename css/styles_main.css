@@ -16,7 +16,7 @@ div
     margin: auto;
 }
 
-p, button, img
+p, button, img, svg
 {
     margin-left: auto;
     margin-right: auto;
@@ -27,6 +27,13 @@ p
     font-size: 32px;
     /*-webkit-text-stroke: 1px darkblue;*/
     color: midnightblue;
+}
+
+#clock
+{
+    font-size: 64px;
+    font-weight: bold;
+    vertical-align: middle;
 }
 
 button
@@ -41,14 +48,16 @@ button
     font-size: 24px;
     padding: 16px;
     border-radius: 16px;
-    width: 75%;
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    bottom: 5%;
 }
 
-img
+svg
 {
-    border-radius: 50%;
-    height: 256px;
-    width: 256px;
     display: block;
     border: 2px darkblue;
+    
 }
